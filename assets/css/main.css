@@ -1,0 +1,24 @@
+:root {
+    --primaryColor : #fe206e;
+    --mainFont : "Open Sans", sans-serif;
+}
+
+body {
+    font-family: var(--mainFont);
+}
+.navbar .nav-item .nav-link {
+    color: #fff;
+
+}
+.navbar-nav .nav-item a.active {
+    color: var(--primaryColor) !important;
+}
+.hero {
+    height: calc(100vh - 56px);
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center -100px;
+}
+.hero .hero-content a {
+    color: var(--primaryColor);
+}
