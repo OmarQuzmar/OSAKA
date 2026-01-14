@@ -2,6 +2,9 @@
     --primaryColor : #fe206e;
     --mainFont : "Open Sans", sans-serif;
 }
+.text__primary {
+    color: var(--primaryColor);
+}
 
 body {
     font-family: var(--mainFont);
@@ -21,4 +24,8 @@ body {
 }
 .hero .hero-content a {
     color: var(--primaryColor);
+}
+/*-----------------------about section------------------*/
+.about {
+    background-image: url(../images/light_dot.jpg);
 }
