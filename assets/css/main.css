@@ -25,7 +25,13 @@ body {
 .hero .hero-content a {
     color: var(--primaryColor);
 }
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+}
 /*-----------------------about section------------------*/
+
 .about, .Portfolio {
     background-image: url(../images/light_dot.jpg);
 }

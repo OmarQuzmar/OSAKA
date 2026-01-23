@@ -57,6 +57,39 @@
         </div>
     </nav>
     <main>
+        <section class="slider">
+            <div id="carouselSliderIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselSliderIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselSliderIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselSliderIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSliderIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSliderIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
         <section class="hero vh-100 ">
             <div class="container h-100">
                 <div class="hero-content h-100 d-flex flex-column justify-content-center">
@@ -95,6 +128,44 @@
                         </div>
                     </div>
                 </div>
+
+            </div>
+        </section>
+        <section class="testimonials py-5 text-center">
+            <div class="title text-center mb-5">
+                <h2 class="fs-1 fw-bold text-uppercase">testimonial</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="container">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item d-flex flex-column gap-2 active" data-bs-interval="5000">
+                            <div class="testimonial">
+                                <img src="./assets/images/5.jpg" class="img-thumbnail rounded-circle">
+                                <h2>Omar Quzmar</h2>
+                                <h3>Front End Developer</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, illum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex flex-column gap-2" data-bs-interval="4000">
+                            <div class="testimonial">
+                                <img src="./assets/images/4.jpg" class="img-thumbnail rounded-circle">
+                                <h2>Omar Quzmar</h2>
+                                <h3>Front End Developer</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, illum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex flex-column gap-2" data-bs-interval="2000">
+                            <div class="testimonial">
+                                <img src="./assets/images/6.jpg" class="img-thumbnail rounded-circle">
+                                <h2>Omar Quzmar</h2>
+                                <h3>Front End Developer</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, illum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </section>
